@@ -1,11 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Workbench&display=swap');
+
+.content{
+    border-radius: 10px;
+    background-color: rgba(32, 110, 84, 0.47);
+    box-shadow: 10px 0px 10px;
+}
 .container {
-    border: 2px solid red;
+    border: none;
+    border-radius: 10px;
     margin:20px auto;
+    padding: 10px;
     text-align: center;
     
+    
+    
+    
+}
+.header {
+    font-family: "Workbench", sans-serif;
+    font-style: italic;
+    color: rgb(15, 11, 5);
+    h1 {
+        text-decoration: underline;
+    }
 }
 
 .accordion {
-    border: 2px solid;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
     margin: 15px auto;
+    padding: 15px;
+    font-size: 1.7rem;
+    
+    
+
+    button {
+        background-color: rgb(87, 125, 113);
+        font-size: 1.5rem;
+    }
+}
+.accordion-button.collapsed::after {
+    
+    background-color: inherit;
+}
+.accordion-button:not(collapsed)::after {
+    
+    
+    background-color: inherit;
+    /* background: url("./components/helper/data.js"); */
+}
+.card {
+    border: none;
+    background-color: rgba(60, 99, 87, 0.396);
+    margin-bottom: 35px;
+    box-shadow: 15px 15px 15px;
+    
+}
+.accordion-item {
+    background-color: rgb(87, 125, 113);
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-family: "Dancing Script", cursive;
+    border-radius: 10px;
 }
