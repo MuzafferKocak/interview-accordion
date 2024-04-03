@@ -4,7 +4,7 @@ import questions from "./helper/data";
 
 function Question() {
   return (
-    <div className="App">
+    <div className="content">
       <InterviewAccord questions={questions} /> 
     </div>
   );
